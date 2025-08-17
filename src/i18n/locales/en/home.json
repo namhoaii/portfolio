@@ -1,0 +1,22 @@
+{
+  "greeting": "Hi, I'm",
+  "name": "Nam Hoài",
+  "title": "Fullstack Web Developer",
+  "description": "Turning ideas into impactful digital experiences.",
+  "buttons": {
+    "contact": "Get In Touch",
+    "portfolio": "View My Work"
+  },
+  "social": {
+    "title": "Social Network Integration"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Location": "Location"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "greeting": "Xin chào, tôi là",
+  "name": "Nam Hoài",
+  "title": "Lập trình viên",
+  "description": "Biến ý tưởng thành trải nghiệm số ấn tượng.",
+  "buttons": {
+    "contact": "Liên hệ",
+    "portfolio": "Công việc"
+  },
+  "social": {
+    "title": "Mạng xã hội"
+  },
+  "skills": {
+    "title": "Kỹ năng"
+  },
+  "contact": {
+    "title": "Thông tin liên hệ",
+    "Email": "Email",
+    "Phone": "Điện thoại",
+    "Location": "Địa chỉ"
+  }
+}

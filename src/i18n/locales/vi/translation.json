@@ -1,0 +1,27 @@
+{
+  "welcome": "Xin chào, tôi là Hoài Nam",
+  "job": "Lập trình viên Fullstack",
+  "contact": {
+    "title": "Liên hệ",
+    "address": "Địa chỉ: Ba Sao, Đồng Tháp",
+    "phone": "Điện thoại: 0375 466 695",
+    "email": "Gmail: hoainamsmurf@gmail.com"
+  },
+  "footer": {
+    "copyright": "© 2025 Bản quyền thuộc về Nam Hoài",
+    "description": "Được phát triển bởi Nam Hoài",
+    "links": {
+      "title": "Liên kết",
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "services": "Dịch vụ",
+      "projects": "Dự án"
+    },
+    "resources": {
+      "title": "Tài nguyên",
+      "support": "Hỗ trợ",
+      "question": "Câu hỏi",
+      "policy": "Chính sách"
+    }
+  }
+}

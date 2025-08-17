@@ -1,0 +1,27 @@
+{
+  "welcome": "Hello, I am Hoai Nam",
+  "job": "Fullstack Developer",
+  "contact": {
+    "title": "Contact me",
+    "address": "Address: Ba Sao, Đồng Tháp",
+    "phone": "Phone: 0375 466 695",
+    "email": "Gmail: hoainamsmurf@gmail.com"
+  },
+  "footer": {
+    "copyright": "© 2025 Copyright belongs to Nam Hoai",
+    "description": "Developed by Nam Hoai",
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "projects": "Projects"
+    },
+    "resources": {
+      "title": "Resources",
+      "support": "Support",
+      "question": "FAQ",
+      "policy": "Privacy Policy"
+    }
+  }
+}
