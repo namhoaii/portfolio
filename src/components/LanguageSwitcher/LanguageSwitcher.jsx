@@ -14,24 +14,31 @@ const languageMap = {
 // Danh sách các ngôn ngữ hỗ trợ
 const languages = ["en", "vi"];
 
+// Chuẩn hóa mã ngôn ngữ (vi-VN -> vi, en-US -> en)
+const normalizeLanguage = (lang) => {
+  if (!lang) return languages[0]; // Mặc định trả về 'en' nếu lang không hợp lệ
+  const langCode = lang.toLowerCase().split("-")[0];
+  return languages.includes(langCode) ? langCode : languages[0];
+};
+
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
   // Khởi tạo index từ i18n.language (đã được detect sẵn)
   const [langIndex, setLangIndex] = useState(() => {
-    const detectedLang = i18n.language;
+    const detectedLang = normalizeLanguage(i18n.language);
     const index = languages.indexOf(detectedLang);
     return index >= 0 ? index : 0;
   });
 
   // Đồng bộ langIndex nếu ngôn ngữ thay đổi từ nơi khác
   useEffect(() => {
-    const currentLang = i18n.language;
+    const currentLang = normalizeLanguage(i18n.language);
     const newIndex = languages.indexOf(currentLang);
     if (newIndex !== langIndex) {
       setLangIndex(newIndex);
     }
-  }, [i18n.language]);
+  }, [i18n.language, langIndex]);
 
   // Khi nhấn để đổi ngôn ngữ
   const nextLanguage = () => {
