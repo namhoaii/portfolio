@@ -5,7 +5,7 @@ import { Navigation } from "@components/Navigation";
 const Header = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+    <div className="fixed w-full bg-white/80 dark:bg-[#121212]/80 backdrop-blur-md shadow-sm z-50">
       <div className="container mx-auto px-6 py-2 flex justify-between items-center">
         <div className="">
           <img

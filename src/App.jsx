@@ -1,16 +1,16 @@
-import { useState } from "react";
 import "./App.css";
 
 import MainLayout from "./layouts/MainLayout";
 import { Home } from "@pages/Home";
+import { ThemeProvider } from "@components/ThemeProvider";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <MainLayout>
-      <Home />
-    </MainLayout>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <MainLayout>
+        <Home />
+      </MainLayout>
+    </ThemeProvider>
   );
 }
 
