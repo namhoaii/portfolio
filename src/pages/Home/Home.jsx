@@ -65,7 +65,9 @@ const Home = () => {
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center tracking-wide">
           {t("skills.title")}
         </h2>
-        <Skill />
+        <div className=" mx-auto scale-75 md:scale-100">
+          <Skill />
+        </div>
       </section>
       <section className="pt-10">
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center tracking-wide">
